@@ -22,7 +22,7 @@
         "symfony/http-foundation": "^7.0",
         "symfony/routing": "^7.0",
         "symfony/web-profiler-bundle": "^7.0",
-        "twig/twig": "^^3.0",
+        "twig/twig": "^^3.8",
         "monolog/monolog": "1.1-dev"
     },
     "prefer-stable": true,
