@@ -16,18 +16,25 @@
     },
     "require": {
         "php": ">=7.4",
-        "symfony/config": "^4.4.1 | ^5.0 | ^6.0",
-        "symfony/dependency-injection": "^4.4.1 | ^5.0 | ^6.0",
-        "symfony/http-kernel": "^4.4.1 | ^5.0 | ^6.0",
-        "symfony/http-foundation": "^4.4.1 | ^5.0 | ^6.0",
-        "symfony/routing": "^4.4.1 | ^5.0 | ^6.0",
-        "symfony/web-profiler-bundle": "^4.4.1 | ^5.0 | ^6.0",
-        "twig/twig": "^1.38 | ^2.7 | ^3.0"
+        "symfony/config": "^7.0",
+        "symfony/dependency-injection": "^7.0",
+        "symfony/http-kernel": "^7.0",
+        "symfony/http-foundation": "^7.0",
+        "symfony/routing": "^7.0",
+        "symfony/web-profiler-bundle": "^7.0",
+        "twig/twig": "^^3.0",
+        "monolog/monolog": "1.1-dev"
     },
     "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/oroinc/twig-inspector"
+        }
+    ],
     "extra": {
         "branch-alias": {
-            "dev-master": "1.1-dev"
+            "dev-master": "1.2-dev"
         }
     }
 }
