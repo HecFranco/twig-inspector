@@ -14,14 +14,9 @@ use Twig\TemplateWrapper;
  */
 class OpenTemplateController
 {
-    private Environment $twig;
 
-    private FileLinkFormatter $fileLinkFormatter;
-
-    public function __construct(Environment $twig, FileLinkFormatter $fileLinkFormatter)
+    public function __construct(private Environment $twig, private FileLinkFormatter $fileLinkFormatter)
     {
-        $this->twig = $twig;
-        $this->fileLinkFormatter = $fileLinkFormatter;
     }
 
     /**
